@@ -1,0 +1,31 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python Bytecode (Generated automatically by Python)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data Science / Jupyter Notebooks
+.ipynb_checkpoints/
+
+# TensorFlow / Machine Learning
+logs/
+*.h5
+*.tflite
+checkpoint
+*.ckpt.*
+
+# Distribution / Packaging
+dist/
+build/
+*.egg-info/
+
+# Environment Variables (for API keys or secrets)
+.env
+
+# Editor-specific (Cursor/VS Code)
+.vscode/
+.idea/
